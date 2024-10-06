@@ -1,3 +1,5 @@
+/*====GENERAL STYLES====*/
+
 h1, h2, h3, h4, h5, h6, p {
     margin-top: 0;
     margin-bottom: 0;
@@ -57,16 +59,15 @@ input {
 }
 .container {
     max-width: 352px;
-    padding: 0 16px;
+    padding: 96px 16px;
     margin-left: auto;
     margin-right: auto;
-}
-section {
-    padding: 0 96px;
 }
 .accent-color {
     color: #4d5ae5;
 }
+
+/*====/GENERAL STYLES====*/
 
 /*====Page Header====*/
 
@@ -74,6 +75,7 @@ section {
     display: flex;
     justify-content: space-between;
     align-self: center;
+    padding: 0 16px;
 }
 .page-header-line {
     max-width: 100%;
@@ -217,7 +219,6 @@ section {
 .social-list.social-list-header {
     justify-content: space-between;
 }
-
 .social-list-item {
 }
 .social-list-link {
@@ -238,6 +239,7 @@ section {
     background-color: #31D0AA;
 }
 
+/*====/Page Header====*/
 
 /*====MAIN STYLES====*/
 
@@ -246,9 +248,10 @@ section {
 .hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),  rgba(46, 47, 66, 0.7)), 
     url(../images/Office.png);
+    padding: 72px 52px;
 }
 .page-hero {
-    padding: 72px 52px;
+   
 }
 .hero-title {
     max-width: 216px;
@@ -281,12 +284,10 @@ section {
     background-color: #404BBF;
 }
 
+/*====/HERO STYLES=====*/
+
  /*=====BENEFITS STYLES====*/
 
-.benefits {
-    padding-top: 96px;
-    padding-bottom: 96px;
-}
 .benefits-title {
 }
 .benefits-list {
@@ -310,11 +311,16 @@ section {
     letter-spacing: 0.02em;
 }
 
+/*=====/BENEFITS STYLES====*/
+
 /*====OUR TEAM===*/
 
 .team {
+    padding-left:  28px;
+    padding-right: 28px;
+}
+.team {
     background-color: #f4f4fd;
-    padding: 96px 28px;
 }
 .team-title {
     font-size: 36px;
@@ -362,7 +368,6 @@ section {
     gap: 24px;
 }
 .social-item {
-
 }
 .social-link {
     display: flex;
@@ -383,10 +388,11 @@ section {
     background-color: #404BBF;
 }
 
+/*====/OUR TEAM===*/
+
 /*====OUR PORTFOLIO===*/
 
 .portfolio {
-    padding: 96px 16px;
 }
 .portfolio-title {
     font-size: 36px;
@@ -440,11 +446,12 @@ section {
     letter-spacing: 0.02em;
 }
 
+/*====/OUR PORTFOLIO===*/
+
 /*====PAGE FOOTER===*/
 
 .footer {
     background-color: #2e2f42;
-    padding: 96px 16px;
 }
 .logo-page {
     margin-bottom: 72px;
@@ -483,12 +490,6 @@ section {
     margin-bottom: 72px;
     gap: 16px;
 }
-.social-item {
-}
-.social-link {
-}
-.social-icon {
-}
 .subscribe {
 }
 .subscribe-texst {
@@ -502,7 +503,6 @@ section {
 .subscribe-form {
 }
 .subscribe-label {
-    
 }
 .subscribe-input {
     border: 1px solid #ffffff;
@@ -520,7 +520,6 @@ section {
     letter-spacing: 0.04em;
     color: #ffffff;
 }
-
 .subscribe-btn {
     border-radius: 4px;
     border: none;
@@ -546,4 +545,5 @@ section {
     fill:#ffffff;
 }
 
+/*====/PAGE FOOTER===*/
    
