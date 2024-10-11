@@ -263,11 +263,11 @@ section{
     0 1px 1px rgba(46, 47, 66, 0.16),
     0 1px 6px rgba(46, 47, 66, 0.08);
     }
-/* .page-header-line {
+.page-header-line {
     display: flex;
     justify-content: space-between;
     align-items: center;
-} */
+} 
 .page-logo {
     margin-right: 120px;
 }
