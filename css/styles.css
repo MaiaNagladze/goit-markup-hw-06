@@ -263,11 +263,11 @@ section{
     0 1px 1px rgba(46, 47, 66, 0.16),
     0 1px 6px rgba(46, 47, 66, 0.08);
     }
-.page-header-line {
+/* .page-header-line {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+} */
 .page-logo {
     margin-right: 120px;
 }
@@ -339,21 +339,25 @@ section{
     }
 }
 @media screen and (min-width: 1158px) {
-    .page-header {
-        padding: 24px 0;
+.page-header {
+    padding: 24px 0;
     }
-    .page-logo {
-        margin-right: 76px;
+.page-logo {
+    margin-right: 76px;
     }
-    .manu-tablet {
-        margin-right: 330px;
+.manu-tablet {
+    margin-right: 330px;
     }
-    .contacts-list-tablet {
-        flex-direction: row;
-        gap: 40px;
+.contacts-list-tablet {
+    flex-direction: row;
+    gap: 40px;
+    }
+.contacts-item-tablet {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     }
 }
-
 
 /*====/PAGE HEADER====*/
 
@@ -628,6 +632,7 @@ section{
 .portfolio-photo-box {
     position: relative;
     overflow: hidden;
+    background-size: cover;
     width: 288px;
     height: 280px;
     margin-bottom: 32px;
@@ -672,7 +677,7 @@ section{
     }
     .portfolio-item {
         width: calc((100% - 24px) / 2);
-    }   
+    }
 }
 @media screen and (min-width: 1158px) {
     .portfolio-list {
