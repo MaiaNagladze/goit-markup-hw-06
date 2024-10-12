@@ -1008,14 +1008,14 @@ padding: 96px 28px;
     stroke: transparent;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
      border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-     stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
+     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .review-form-checkbox:checked + 
 .review-form-checkbox-label > 
 .review-form-custom-checkbox {
     background-color: #404bbf;
     border: none;
-    stroke:#ffffff;
+    fill:#ffffff;
 }
 .review-form-checkbox:focus + 
 .review-form-checkbox-label > 
