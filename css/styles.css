@@ -270,6 +270,9 @@ input {
 .manu-mobal-btn:focus + .manu-mobal-btn-icon {
     stroke: #ffffff;
 }
+.mobile-page-nav {
+    margin-bottom: auto;
+} 
 .mobile-manu {
     display: flex;
     flex-direction: column;
